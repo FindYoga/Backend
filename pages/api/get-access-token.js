@@ -17,7 +17,7 @@ dotenv.config();
 module.exports = {
   getAccessToken: function () {
     return new Promise(function (resolve, reject) {
-      const key = JSON.parse(process.env.GOOGLE);
+      const key = JSON.parse(process.env.GOODLE_ORPHEUS);
       const jwtClient = new JWT(
         key.client_email,
         null,
