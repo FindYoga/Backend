@@ -20,7 +20,8 @@ export default async function handler(req, res) {
 
       // Send the message using the token
       const response = await axios.post(
-        "https://fcm.googleapis.com/v1/projects/orphiusb-7f241/messages:send",
+        "https://fcm.googleapis.com/v1/projects/kundalini-16a6e/messages:send",
+        // "https://fcm.googleapis.com/v1/projects/orphiusb-7f241/messages:send",
         message,
         headers
       );
